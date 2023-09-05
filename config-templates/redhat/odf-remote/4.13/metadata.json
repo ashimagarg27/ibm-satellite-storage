@@ -1,9 +1,9 @@
 {
-  "name": "4.11",
-  "revision": "8",
+  "name": "4.13",
+  "revision": "2",
   "enabled": "true",
   "status": "supported",
-  "description": "ODF template for openshift 4.11 (Local storage)",
+  "description": "ODF template for openshift 4.13 (Remote storage)",
   "tags": [
     {
       "name": "provider",
@@ -27,7 +27,7 @@
     },
     {
       "name": "provider-logo",
-      "value": "logo/odf-local.svg"
+      "value": "logo/odf-remote.svg"
     },
     {
       "name": "supported-envs",
@@ -35,11 +35,11 @@
     },
     {
       "name": "supported-k8s-versions",
-      "value": "1.24,1.25"
+      "value": "1.26,1.27"
     },
     {
       "name": "supported-ocp-versions",
-      "value": "4.11,4.12"
+      "value": "4.13,4.14"
     },
     {
       "name": "volume-type",
